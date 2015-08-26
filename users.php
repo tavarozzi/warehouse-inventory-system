@@ -30,7 +30,7 @@
              <a href="edit_user.php?id=<?php echo (int)$a_user['id'];?>" class="btn btn-warning btn-xs"  title="Edit">
                <span class="glyphicon glyphicon-edit"></span>
              </a>
-             <a href="delete_user.php?id=<?php echo (int)$a_user['id'];?>" class="btn btn-danger btn-xs"  title="Edit">
+             <a href="delete_user.php?id=<?php echo (int)$a_user['id'];?>" class="btn btn-danger btn-xs"  title="Delete">
                <span class="glyphicon glyphicon-trash"></span>
              </a>
            </td>
