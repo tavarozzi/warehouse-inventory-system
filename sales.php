@@ -39,7 +39,7 @@ $sales = find_all_sale();
                    <a href="edit_sale.php?id=<?php echo (int)$sale['id'];?>" class="btn btn-warning btn-xs"  title="Edit">
                      <span class="glyphicon glyphicon-edit"></span>
                    </a>
-                   <a href="delete_categorie.php?id=<?php echo (int)$sale['id'];?>" class="btn btn-danger btn-xs"  title="Edit">
+                   <a href="delete_sale.php?id=<?php echo (int)$sale['id'];?>" class="btn btn-danger btn-xs"  title="Edit">
                      <span class="glyphicon glyphicon-trash"></span>
                    </a>
                </td>
